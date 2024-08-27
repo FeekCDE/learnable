@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #144361;
+}
+
+nav{
+    /* border: 1px solid red; */
+    height: 70px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav a{
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+ .checkin span{
+    /* background-color: aquamarine; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+
+ .banner{
+    width: 70%;
+    margin: auto;
+    /* align-content: center; */
+    /* margin: 0 auto; */
+
+    /* without flex wrap there is no align content */
+ }
+
+.banner div img {
+    height: 300px;
+}
+
+.Learnable{
+    width: 100%;
+    height: 60dvh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.297),rgba(0, 0, 0, 0.324)), url(./media/Teachable/IMG_1028.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: white;
+    line-height: 3rem;
+}
+
+.Learnable h2,h1{
+    text-align: center;
+}
+.Learnable h1{
+    font-size: 50px;
+}
+.Learnable h2{
+
+}
+article{
+    padding-top: 100px;
+    margin-top: 400px;
+    width: 60%;
+    margin: auto;
+    font-size: 17px;
+}
+.textarea article p{
+    line-height: 1.5rem;
+}
+.textarea{
+    width: 70%;
+    margin: auto;
+    /* align-content: center; */
+}
+.second{
+    text-align: center;
+}
+.box{
+    border: 1px solid black;
+    height: 350px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    text-align: center;
+    color: red;
+    margin-bottom: 60px;
+}
+
+.box img{
+    height: 200px;
+    width: 280px;
+}
+.bottom-box img{
+    height: 20px;
+    width: 30px;
+    display: inline;
+    padding-top: 10px;
+}
+.bottom-box p{
+    display: inline;
+    margin-right: 30px;
+}
+footer{
+    width: 100%;
+    background-color: #144361;
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    /* margin: 30px 60px; */
+    height: 150px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer img{
+    height: 18px;
+}
+.footer div{
+    /* align-content: space-between; */
+    justify-content: space-between;
+}
